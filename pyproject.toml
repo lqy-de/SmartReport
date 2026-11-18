@@ -1,0 +1,10 @@
+[project]
+name = "smartreport"
+version = "0.1.0"
+description = "SmartReport offline grade sheet importer"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
